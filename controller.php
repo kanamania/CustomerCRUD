@@ -8,17 +8,17 @@ route('/', function () {
         $check = $db->insert('customers', $_POST['customer']);
         $status = $check ? 'success' : 'error';
         $message = $check ? 'Customer #' . $_POST['id'] . ' created successfully' : 'Operation failed please try again';
-        $page['status'] = ['status' => $status, 'message' => $message];
+        $data['status'] = ['status' => $status, 'message' => $message];
     } elseif ($_POST['action'] == 'edit') {
         $check = $db->update('customers', $_POST['customer']['id'], $_POST['customer']);
         $status = $check ? 'success' : 'error';
         $message = $check ? 'Customer #' . $_POST['customer']['id'] . ' updated successfully' : 'Operation failed please try again';
-        $page['status'] = ['status' => $status, 'message' => $message];
+        $data['status'] = ['status' => $status, 'message' => $message];
     } elseif ($_POST['action'] == 'delete') {
         $check = $db->delete('customers', $_POST['id']);
         $status = $check ? 'success' : 'error';
         $message = $check ? 'Customer #' . $_POST['id'] . ' deleted successfully' : 'Operation failed please try again';
-        $page['status'] = ['status' => $status, 'message' => $message];
+        $data['status'] = ['status' => $status, 'message' => $message];
     }
     $page['customers'] = $db->query('SELECT c.*, g.gender_name as gender FROM customers c LEFT JOIN genders g on c.gender_id = g.id WHERE c.is_deleted != 1');
     $page['genders'] = $db->getAll('genders');
