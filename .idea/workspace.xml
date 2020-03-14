@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0a5d56-cefa-49f0-8f66-5cf5dcf06ed7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ongeza.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/customers.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/dashboard.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/main.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1584107129942</updated>
       <workItem from="1584107131265" duration="2580000" />
-      <workItem from="1584167842453" duration="14040000" />
+      <workItem from="1584167842453" duration="14302000" />
     </task>
     <servers />
   </component>
