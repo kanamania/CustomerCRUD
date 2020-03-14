@@ -42,10 +42,10 @@
                    data-gender_id="<?=$customer['gender_id']?>"
                    data-town="<?=$customer['town_name']?>"
                    href="#editCustomerModal" class="edit" data-toggle="modal">
-                    <i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i>
+                    <i class="fa fa-pencil" data-toggle="tooltip" title="Edit"></i>
                 </a>
                 <a data-id="<?=$customer['id']?>" href="#deleteCustomerModal" class="delete" data-toggle="modal">
-                    <i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i>
+                    <i class="fa fa-trash" data-toggle="tooltip" title="Delete"></i>
                 </a>
                 <? } else { ?>
                 <a data-id="<?=$customer['id']?>" href="#restoreCustomerModal" class="restore" data-toggle="modal">
@@ -75,17 +75,17 @@
                     <div class="form-group row">
                         <div class="col-md-6">
                             <label>First name</label>
-                            <input name="customer[first_name]" type="text" class="form-control" required>
+                            <input id="addFirstname" name="customer[first_name]" type="text" class="form-control" required>
                         </div>
                         <div class="col-md-6">
                             <label>Last name</label>
-                            <input name="customer[last_name]" type="text" class="form-control" required>
+                            <input id="addLastname" name="customer[last_name]" type="text" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="col-md-6">
                             <label>Gender</label>
-                            <select name="customer[gender_id]" class="form-control" required>
+                            <select id="addGender" name="customer[gender_id]" class="form-control" required>
                                 <? foreach ($genders as $gender) { ?>
                                     <option value="<?= $gender['id'] ?>"><?= $gender['gender_name'] ?></option>
                                 <? } ?>
@@ -93,7 +93,7 @@
                         </div>
                         <div class="col-md-6">
                             <label>Town</label>
-                            <input type="text" name="customer[town_name]" class="form-control" required>
+                            <input id="addTown" type="text" name="customer[town_name]" class="form-control" required>
                         </div>
                     </div>
                 </div>

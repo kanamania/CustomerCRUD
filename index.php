@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Africa/Dar_es_Salaam');
-//error_reporting(0);
+error_reporting(0);
 include_once 'DB.php';
 include_once 'functions.php';
 include_once 'configs.php';

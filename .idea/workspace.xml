@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0a5d56-cefa-49f0-8f66-5cf5dcf06ed7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database_schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/customers.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/customers.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/main.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +24,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Z4nFQc9lEx47Dl6Myrzniuz2CH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -52,30 +60,49 @@
       <option name="presentableId" value="Default" />
       <updated>1584107129942</updated>
       <workItem from="1584107131265" duration="2580000" />
-      <workItem from="1584167842453" duration="14627000" />
+      <workItem from="1584167842453" duration="16044000" />
     </task>
+    <task id="LOCAL-00001" summary="update README.md">
+      <created>1584182511681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584182511681</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update README.md">
+      <created>1584182718378</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584182718378</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584180735132">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="444" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1584180735132" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584182510643">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1584183876200">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584182510643" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584183876200" />
     <state x="518" y="287" key="NewPhpFileDialog" timestamp="1584176658555">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1584176658555" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584182515885">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1584182754020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584182515885" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584182754020" />
     <state x="234" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1584178087796">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -88,9 +115,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584177552153" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584109289699">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584183280693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584109289699" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1584183280693" />
   </component>
 </project>

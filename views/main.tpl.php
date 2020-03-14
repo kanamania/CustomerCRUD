@@ -235,6 +235,12 @@
         .delete_forever {
             color: red !important;
         }
+        .has-error {
+            border: 1px solid red !important;
+        }
+        .color-red {
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -278,6 +284,48 @@
         // e.preventDefault();
         var link = $(e.relatedTarget)
         $("#restoreId").val(link.data('id'))
+    });
+    $("#addCustomerModal form").on('submit', function (e) {
+        e.preventDefault();
+        let error = false;
+        if($("#addFirstname").val().length < 3 ){
+            $("#addFirstname").addClass('has-error');
+            $("#addFirstname").parent().append(
+                $("<span>", {class: 'color-red'}).text('Customer first name must be at least 3 characters')
+            )
+            error = true
+        } else {
+            $("#addFirstname").removeClass('has-error');
+            $("#addFirstname").parent().find('span').remove()
+        }
+        $("#addCustomerModal form input, #addCustomerModal form select").each(function () {
+            if(!$(this).val()){
+                error = true
+                $(this).addClass('has-error');
+            }
+        })
+        if(!error) $(this).off('submit').submit();
+    });
+    $("#editCustomerModal form").on('submit', function (e) {
+        e.preventDefault();
+        let error = false;
+        if($("#editFirstname").val().length < 3 ){
+            $("#editFirstname").addClass('has-error');
+            $("#editFirstname").parent().append(
+                $("<span>", {class: 'color-red'}).text('Customer first name must be at least 3 characters')
+            )
+            error = true
+        } else {
+            $("#editFirstname").removeClass('has-error');
+            $("#editFirstname").parent().find('span').remove()
+        }
+        $("#editCustomerModal form input, #editCustomerModal form select").each(function () {
+            if(!$(this).val()){
+                error = true
+                $(this).addClass('has-error');
+            }
+        })
+        if(!error) $(this).off('submit').submit();
     });
 </script>
 

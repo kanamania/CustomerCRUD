@@ -3,5 +3,5 @@ $config = [
     'host' => 'localhost',
     'username' => 'root',
     'password' => '',
-    'database' => 'ongeza_local',
+    'database' => 'ongeza_test',
 ];
