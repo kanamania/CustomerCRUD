@@ -13,13 +13,23 @@ Change database credentials on the configs.php file to resemble your setup.
 
 
 <h3>Functionality</h3>
-As specified on the email\
-You can create, edit and delete customers\
+All specified on the email have been implemented.
+You can create, edit and delete customers. 
 But also you can restore them or delete them forever by going to the trash bin.
 
 <h3>Libraries</h3>
-In order to get the nice layout and front end functionality presented in front of you. The following libraries have been used on one way or another.\
--jQuery 3.3.1\
--Bootstrap 4.4.1\
--DataTables 1.10.20\
--Font Awesome 4.7.0
+In order to get the nice layout and front end functionality presented in front of you. The following libraries have been used on one way or another.
+<ul>
+<li>
+jQuery 3.3.1
+</li>
+<li>
+Bootstrap 4.4.1
+</li>
+<li>
+DataTables 1.10.20
+</li>
+<li>
+Font Awesome 4.7.0
+</li>
+</ul>
