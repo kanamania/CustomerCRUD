@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0a5d56-cefa-49f0-8f66-5cf5dcf06ed7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs.php" beforeDir="false" afterPath="$PROJECT_DIR$/configs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database_schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database_schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/customers.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/customers.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.tpl.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/views/main.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/main.tpl.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -61,6 +60,7 @@
       <updated>1584107129942</updated>
       <workItem from="1584107131265" duration="2580000" />
       <workItem from="1584167842453" duration="16044000" />
+      <workItem from="1584207890605" duration="1239000" />
     </task>
     <task id="LOCAL-00001" summary="update README.md">
       <created>1584182511681</created>
@@ -111,10 +111,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="315" y="61" width="736" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584172033199" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1584177552153">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1584209031212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584177552153" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1584209031212" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1584183280693">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
