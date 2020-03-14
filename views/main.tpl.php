@@ -7,8 +7,10 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4-4.1.1/jq-3.3.1/dt-1.10.20/datatables.min.css"/>
-    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4-4.1.1/jq-3.3.1/dt-1.10.20/datatables.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/datatables.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.3.1/dt-1.10.20/datatables.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <style type="text/css">
         body {
             color: #566787;
@@ -241,12 +243,29 @@
         .color-red {
             color: red;
         }
+
+        #statusNotification  {
+            top: 110px;
+            right: 50px;
+            z-index: 999;
+            position: absolute;
+        }
+        #statusNotification .success {
+            color: #313448 !important;
+            background-color: #46ed4d !important;
+            border-color: #c3e6cb;
+        }
+        #statusNotification .error {
+            color: #f3f7f3 !important;
+            background-color: #f54545 !important;
+            border-color: #c3e6cb;
+        }
     </style>
 </head>
 <body>
 <? if(isset($status)){ ?>
-<div class="toast" id="statusNotification">
-    <div class="toast-header">
+    <div class="toast" id="statusNotification" data-autohide="false" >
+        <div class="toast-header <?=$status['status']?>">
         <strong class="mr-auto"><?=ucfirst($status['status'])?></strong>
         <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
     </div>
@@ -259,7 +278,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $("#customersTable").DataTable();
-        // $('#statusNotification').toast('show')
+        $('#statusNotification').toast('show')
     });
     $("#editCustomerModal").on('show.bs.modal', function (e) {
         // e.preventDefault();
