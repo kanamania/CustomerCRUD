@@ -1,8 +1,8 @@
 <h3>Test Server Info</h3>
-Apache/2.4.41 (Win64) OpenSSL/1.1.1c mod_wsgi/4.7.1 Python/3.8 PHP/7.3.11\
-PHP Short tags On
+Apache/2.4.41 (Win64) OpenSSL/1.1.1c mod_wsgi/4.7.1 Python/3.8 PHP/7.3.11
+<br>PHP Short tags On
 <h3>Database</h3>
-Database client version: libmysql - mysqlnd 5.0.12-dev - 20150407 - $Id: 7cc7cc96e675f6d72e5cf0f267f48e167c2abb23\
+Database client version: libmysql - mysqlnd 5.0.12-dev - 20150407 - $Id: 7cc7cc96e675f6d72e5cf0f267f48e167c2abb23
 Change database credentials on the configs.php file to resemble your setup.
     
     $config = [
